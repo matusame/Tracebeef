@@ -4,6 +4,7 @@ import { Button } from 'devextreme-react/button';
 import BarChart from "../../components/bar-chart";
 import MapMarker from "../../components/map-maker/map-marker";
 import Header from "../../components/header/Header";
+import SankeyChart from "../../components/sankey-chart/sankey-chart";
 
 export default function Home() {
 
@@ -231,7 +232,7 @@ export default function Home() {
             </a>
             .
           </p>
-          <MapMarker/>
+          <SankeyChart/>
         </div>
       </div>
     </React.Fragment>
