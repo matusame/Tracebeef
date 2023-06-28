@@ -2,6 +2,7 @@ import React from "react";
 import "./home.scss";
 import { Button } from 'devextreme-react/button';
 import BarChart from "../../components/bar-chart";
+import MapMarker from "../../components/map-maker/map-marker";
 import Header from "../../components/header/Header";
 
 export default function Home() {
@@ -230,7 +231,7 @@ export default function Home() {
             </a>
             .
           </p>
-          <BarChart />
+          <MapMarker/>
         </div>
       </div>
     </React.Fragment>
